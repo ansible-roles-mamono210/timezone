@@ -1,0 +1,23 @@
+---
+- name: Verify
+  gather_facts: true
+  hosts: all
+
+  tasks:
+    - name: Check system timezone
+      ansible.builtin.command: timedatectl status
+      register: timezone
+      changed_when: false
+
+    - name: Show system timezone
+      ansible.builtin.debug:
+        var: timezone
+
+    - name: Check OS version
+      ansible.builtin.command: cat /etc/redhat-release
+      register: os_version
+      changed_when: false
+
+    - name: Show OS version
+      ansible.builtin.debug:
+        var: os_version
