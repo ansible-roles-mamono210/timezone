@@ -3,7 +3,7 @@
 Role Description
 =========
 
-Set system timezone for CentOS7/8.
+Set system timezone for CentOS7/Stream8.
 
 Requirements
 ------------
