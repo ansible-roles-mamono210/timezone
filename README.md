@@ -1,4 +1,4 @@
-[![](https://github.com/ansible-roles-mamono210/timezone/workflows/build/badge.svg)](https://github.com/ansible-roles-mamono210/timezone/actions?query=workflow%3Abuild)
+[![CircleCI](https://circleci.com/gh/ansible-roles-mamono210/timezone/tree/main.svg?style=svg)](https://circleci.com/gh/ansible-roles-mamono210/timezone/tree/main)
 
 Role Description
 =========
