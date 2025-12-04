@@ -7,7 +7,8 @@ platforms:
   - name: timezone
     command: /sbin/init
     image: ${MOLECULE_IMAGE}
-    privileged: True
+    pre_build_image: true
+    privileged: true
 provisioner:
   name: ansible
   config_options:
